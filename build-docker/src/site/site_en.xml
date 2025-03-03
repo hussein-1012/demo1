@@ -6,8 +6,5 @@
         </menu>
         <menu ref="modules" />
         <menu ref="reports" inherit="bottom" />
-        <menu name="SUPPORT">
-            <item href="SUPPORT.html" name="Support" />
-        </menu>
     </body>
 </project>
