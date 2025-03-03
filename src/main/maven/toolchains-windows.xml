@@ -1,0 +1,45 @@
+<toolchains xmlns="http://maven.apache.org/POM/4.0.0"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://maven.apache.org/TOOLCHAINS/1.1.0 https://maven.apache.org/xsd/toolchains-1.1.0.xsd">
+
+    <toolchain>
+        <type>jdk</type>
+        <provides>
+            <version>default</version>
+            <!--<vendor>openjdk</vendor>-->
+        </provides>
+        <configuration>
+            <!-- Windows style: C:\Program Files\Java\jdk1.8.0_211 -->
+            <!-- sdkman style: ${user.home}/.sdkman/candidates/java/11.0.2-open -->
+            <jdkHome>C:\Program Files\Java\jdk1.8.0_211</jdkHome>
+        </configuration>
+    </toolchain>
+    <toolchain>
+        <type>jdk</type>
+        <provides>
+            <version>1.8</version>
+        </provides>
+        <configuration>
+            <jdkHome>C:\Program Files\Java\jdk1.8.0_211</jdkHome>
+        </configuration>
+    </toolchain>
+    <toolchain>
+        <type>jdk</type>
+        <provides>
+            <version>8</version>
+        </provides>
+        <configuration>
+            <jdkHome>C:\Program Files\Java\jdk1.8.0_211</jdkHome>
+        </configuration>
+    </toolchain>
+    <toolchain>
+        <type>jdk</type>
+        <provides>
+            <version>11</version>
+            <id>jdk11</id>
+        </provides>
+        <configuration>
+            <jdkHome>C:\Program Files\Java\jdk-11.0.2</jdkHome>
+        </configuration>
+    </toolchain>
+</toolchains>
