@@ -4,9 +4,6 @@
         <menu name="DOCUMENTATION">
             <item href="README.html" name="README" />
         </menu>
-        <menu name="SUPPORT">
-            <item href="SUPPORT.html" name="Help & Support" />
-        </menu>
         <menu ref="modules" />
         <menu ref="reports" inherit="bottom" />
     </body>
