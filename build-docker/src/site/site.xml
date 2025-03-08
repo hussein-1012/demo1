@@ -1,5 +1,5 @@
 <project>
-    <!-- Testing mail notification -->
+    <!-- Testing mail Notification -->
     <body>
         <menu ref="parent"/>
         <menu name="DOCUMENTATION">
