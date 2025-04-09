@@ -1,5 +1,4 @@
 <project>
-    <!--Testing.-->
     <body>
         <menu ref="parent"/>
         <menu name="DOCUMENTATION">
